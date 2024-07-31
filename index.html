@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Status</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1>Flight Status</h1>
+
+        <!-- Departure -->
+        <label>Select Departure Airport</label>
+        <select class="select" id="departure">
+            <option value="">Select Departure Airport</option>
+        </select>
+
+        <!-- Arrival -->
+        <label>Select Arrival Airport</label>
+        <select class="select" id="arrival">
+            <option value="">Select Arrival Airport</option>
+            
+        </select>
+
+        <!-- Button -->
+        <button id="checkStatus">Check Flight Status</button>
+
+        <!-- Result -->
+        <div class="result" id="result"></div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="airports.js"></script>
+    <script src="flights.js"></script>
+</body>
+</html>
